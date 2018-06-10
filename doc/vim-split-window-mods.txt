@@ -1,0 +1,112 @@
+*vim-split-window-mods.txt*                  Simple Vim window placement splits
+
+Author:                     Alexander Skachko <lucerion@example.com>
+Homepage:                   https://github.com/lucerion/vim-split-window-mods
+Version:                    1.0.0 (2018-05-28)
+License:                    MIT (see vim-split-window-mods-license)
+
+===============================================================================
+CONTENTS                                       *vim-split-window-mods-contents*
+
+Install                                         |vim-split-window-mods-install|
+Commands                                       |vim-split-window-mods-commands|
+Options                                         |vim-split-window-mods-options|
+Changelog                                     |vim-split-window-mods-changelog|
+License                                         |vim-split-window-mods-license|
+
+===============================================================================
+INSTALL                                         *vim-split-window-mods-install*
+>
+    mkdir -p ~/.vim/pack/lucerion/start
+    cd ~/.vim/pack/lucerion/start
+    git clone https://github.com/lucerion/vim-executor
+<
+===============================================================================
+COMMANDS                                       *vim-split-window-mods-commands*
+
+                                                                         *:Tab*
+
+`:Tab {command}`            Executes `{command}` in a new tab. The same as
+                          `tab` window placement modifier.
+
+                                                                         *:Top*
+
+`:Top {command}`            Executes `{command}` in a new split above the current
+                          window. The same as `leftabove` window placement
+                          modifier.
+
+                                                                      *:Bottom*
+
+`:Bottom {command}`         Executes `{command}` in a new split below the current
+                          window. The same as `rightbelow` window placement
+                          modifier.
+
+                                                                        *:Left*
+
+`:Left {command}`           Executes `{command}` in a new vertical split to
+                          the left of the current window. The same
+                          `leftabove vertical` window placement modifier.
+
+                                                                       *:Right*
+
+`:Right {command}`          Executes `{command}` in a new vertical split to
+                          the right of the current window. The same as
+                          `rightbelow vertical` window placement modifier.
+
+                                                                     *:TopFull*
+
+`:TopFull {command}`        Executes `{command}` in a new split at the top of
+                          the Vim window. The same as `topleft` window
+                          placement modifier.
+
+                                                                  *:BottomFull*
+
+`:BottomFull {command}`     Executes `{command}` in a new split at the bottom of
+                          the Vim window. The same as `botright` window
+                          placement modifier.
+
+                                                                    *:LeftFull*
+
+`:LeftFull {command}`       Executes `{command}` in a new vertical split at
+                          the far left of the Vim window. The same as
+                          `topleft vertical` window placement modifier.
+
+                                                                   *:RightFull*
+
+`:RightFull {command}`      Executes `{command}` in a new vertical split at
+                          the far right of the Vim window. The same as
+                          `botright vertical` window placement modifier.
+
+===============================================================================
+CHANGELOG                                     *vim-split-window-mods-changelog*
+
+1.0.0 (2018-05-28)~
+
+  First release
+
+===============================================================================
+LICENSE                                         *vim-split-window-mods-license*
+
+Copyright © 2018, Alexander Skachko
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+vim:tw=78:ts=4:ft=help:norl:
